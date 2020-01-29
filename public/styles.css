@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  margin: 4px;
+}
+
+.card {
+  width: 225px;
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.prompt {
+  text-indent: 2em;
+  height: 7.2em;
+  padding: 0.5em 0;
+}
+
+.clue,
+.clue-prompt {
+  height: 4em;
+  margin: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clue-prompt {
+  border: 1px solid black;
+}
+
+form {
+  text-align: center;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .card-grid {
+    width: 960px;
+  }
+}
+
+.userOptions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.userInteractions {
+  height: 3.2em;
+  text-align: center;
+}
