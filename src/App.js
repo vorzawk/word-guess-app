@@ -10,7 +10,8 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      /* Display exactly 8 cards on the screen */
+      <div className="app">
         <h1> Guess the words </h1>
         <hr />
         <div className="card-grid">
@@ -22,7 +23,6 @@ class App extends React.Component {
           {this.renderCard(5)}
           {this.renderCard(6)}
           {this.renderCard(7)}
-          {this.renderCard(8)}
         </div>
       </div>
     );

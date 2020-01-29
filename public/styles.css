@@ -12,11 +12,16 @@ button {
   margin: 4px;
 }
 
+.app {
+  background-color: #ffde22;
+}
+
 .card {
   width: 225px;
   border: 1px solid black;
   margin: 5px;
   padding: 5px;
+  background-color: #ffcf54;
 }
 
 .prompt {
@@ -32,6 +37,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: #ffc681;
 }
 
 .clue-prompt {
