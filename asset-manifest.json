@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/word-guess-app/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/word-guess-app/static/js/main.fbacb804.chunk.js",
+    "main.js.map": "/word-guess-app/static/js/main.fbacb804.chunk.js.map",
+    "runtime-main.js": "/word-guess-app/static/js/runtime-main.ef906112.js",
+    "runtime-main.js.map": "/word-guess-app/static/js/runtime-main.ef906112.js.map",
+    "static/js/2.8277c6d2.chunk.js": "/word-guess-app/static/js/2.8277c6d2.chunk.js",
+    "static/js/2.8277c6d2.chunk.js.map": "/word-guess-app/static/js/2.8277c6d2.chunk.js.map",
+    "index.html": "/word-guess-app/index.html",
+    "precache-manifest.0812dc741cdc2921e9402f3e5163943c.js": "/word-guess-app/precache-manifest.0812dc741cdc2921e9402f3e5163943c.js",
+    "service-worker.js": "/word-guess-app/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/word-guess-app/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.8277c6d2.chunk.js.LICENSE": "/word-guess-app/static/js/2.8277c6d2.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ef906112.js",
+    "static/js/2.8277c6d2.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.fbacb804.chunk.js"
+  ]
+}
