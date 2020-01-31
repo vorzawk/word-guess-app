@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a29050a769d4acf2651dad50ada78689",
+    "revision": "ca4f44599323350b25e47c3ba2e15941",
     "url": "/word-guess-app/index.html"
   },
   {
-    "revision": "6ac0a7b506a205d44eac",
+    "revision": "d6641f9fc9a2aa102311",
     "url": "/word-guess-app/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/word-guess-app/static/js/2.8277c6d2.chunk.js.LICENSE"
   },
   {
-    "revision": "6ac0a7b506a205d44eac",
-    "url": "/word-guess-app/static/js/main.4c58961b.chunk.js"
+    "revision": "d6641f9fc9a2aa102311",
+    "url": "/word-guess-app/static/js/main.a585c289.chunk.js"
   },
   {
     "revision": "8e866beaac906bc8ab0b",
