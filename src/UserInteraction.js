@@ -75,8 +75,8 @@ class UserInteraction extends React.Component {
     return (
       <div className="userInteractions">
         Incorrect answer{" "}
-        <span role="img" aria-label="slightly frowning face">
-          🙁
+        <span role="img" aria-label="frowning face">
+          ☹️
         </span>
         <div className="userOptions">
           <button onClick={() => this.setState(this.initialState)}>
