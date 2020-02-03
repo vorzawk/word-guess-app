@@ -30,8 +30,10 @@ class Form extends React.Component {
 }
 
 class UserInteraction extends React.Component {
+  /* This component takes the user's input, validates it and displays the available options to the user. */
   constructor(props) {
     super(props);
+    /* All of the user's choices are stored as state */
     this.initialState = {
       isSubmitted: false,
       isCorrect: false,
@@ -79,11 +81,13 @@ class UserInteraction extends React.Component {
           😿
         </span>
         <div className="userOptions">
+          /* The user is starting over again when he clicks the 'Try Again'
+          button, so reset the state on click */
           <button onClick={() => this.setState(this.initialState)}>
             Try Again
           </button>
           <button onClick={() => this.setState({ isAnsRequested: true })}>
-            Show answer
+            Show Answer
           </button>
         </div>
       </div>

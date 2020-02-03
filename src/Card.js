@@ -10,12 +10,14 @@ const Prompt = props => {
 };
 
 class Clue extends React.Component {
+  /* Renders the clue prompt, and displays the clue once the user clicks it */
   constructor(props) {
     super(props);
     this.state = { isClicked: false };
   }
 
   render() {
+    /* The clue is created by replacing the correct word with a blank in the example sentence */
     const clue = this.props.example.replace(this.props.wordStr, "______");
     if (this.state.isClicked) {
       return <div className="clue"> {clue} </div>;
@@ -32,9 +34,12 @@ class Clue extends React.Component {
 }
 
 class Card extends React.Component {
-  prompt = this.props.word["definition"];
-  example = this.props.word["example"];
-  wordStr = this.props.word["string"];
+  constructor(props) {
+    super(props);
+    this.prompt = this.props.word["definition"];
+    this.example = this.props.word["example"];
+    this.wordStr = this.props.word["string"];
+  }
 
   render() {
     return (
